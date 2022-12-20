@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+
+
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+
+
+    .container {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        min-height: 50px;
+        justify-content: space-between;
+        width: 100%;
+
+
+        .asus-home-logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 70%;
+                color: red;
+            }
+
+        }
+
+
+        .asus-navbar-tools-menu {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 13px;
+                        font-family: 'Epilogue', sans-serif;
+                        font-family: 'Source Code Pro', monospace;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+
+
+        .asus-home-logo-icon {
+            display: flex;
+            gap: 20px;
+
+            .asus-home-logo {
+                display: flex;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .asus-home-icon {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+
+                i {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .asus-home-icon-1 {
+                display: none;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+
+                i {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+        }
+
+        @media only screen and (max-width: 1000px) {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            min-height: 50px;
+            justify-content: space-evenly;
+            width: 100%;
+
+            .asus-home-logo {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 70%;
+                    color: red;
+                }
+
+            }
+
+
+            .asus-navbar-tools-menu {
+                display: none;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+
+
+            .asus-home-logo-icon {
+                display: flex;
+                gap: 20px;
+
+                .asus-home-logo {
+                    display: none;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .asus-home-icon {
+                    display: none;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    i {
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+
+                .asus-home-icon-1 {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    i {
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

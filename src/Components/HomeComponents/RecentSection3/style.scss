@@ -1,0 +1,141 @@
+
+.recent-section {
+
+    background-image: url("https://rog.asus.com/dist/img/rog_bg_pattern.jpg");
+    width: 100%;
+    height: 240vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    
+    
+    .container-recent {
+    width: 90%;
+    }
+
+    .card-text{display: flex;
+        justify-content: center;
+        
+        h2{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .card3 {
+        display: flex;
+        gap: 1rem;
+
+        div {
+            display: flex;
+            width: 33%;
+            
+            overflow: hidden;
+
+
+            
+        }
+    }
+    .card2{
+        margin-top: 20px    ;
+        display: flex;
+        gap: 30px;
+        div{width: 49%;
+            
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .recent-btn{
+        button{
+            width:100px ;
+            height: 50px;
+            background-color:transparent;
+            border: 5px solid white;
+        }
+    }
+    @media only screen and (max-width: 1000px){
+        background-image: url("https://rog.asus.com/dist/img/rog_bg_pattern.jpg");
+    width: 100%;
+    height: 550vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 190px;
+    
+    .container-recent {
+    width: 90%;
+    }
+
+    .card-text{display: flex;
+        justify-content: center;
+        
+        h2{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        div {
+            display: flex;
+            width: 80%;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                transition: 1s;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+
+            
+        }
+    }
+    .card2{
+        margin-top: 20px    ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        div{width: 80%;
+            overflow: hidden;
+            
+            img{
+                width: 100%;
+                transition: 0.5ms;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .recent-btn{
+        button{
+            width:100px ;
+            height: 50px;
+            background-color:transparent;
+            border: 5px solid white;
+        }
+    }
+    }
+}

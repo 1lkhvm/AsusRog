@@ -1,0 +1,92 @@
+.footer-main {
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+
+    .footer-ul {
+        margin-top: 50px;
+
+        ul {
+            display: flex;
+            gap: 20px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    transition: 0,8s;
+                    &:hover{
+                        color: red;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    .social {
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+
+        i {
+            color: white;
+            font-size: 25px;
+        }
+    }
+
+    @media only screen and (max-width: 800px){
+        background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+
+    .footer-ul {
+        margin-top: 50px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    transition: 0,8s;
+                    &:hover{
+                        color: red;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    .social {
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+
+        i {
+            color: white;
+            font-size: 25px;
+        }
+    }
+    }
+}
