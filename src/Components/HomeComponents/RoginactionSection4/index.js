@@ -35,7 +35,7 @@ export default function RoginactionSection4() {
 
 
             </div>
-                <div className='rog-in-btn'><button/></div>
+            <div className='rog-in-btn'><a>LEARN MORE</a></div>
 
         </>
     )

@@ -27,7 +27,7 @@ function RecentSection3() {
                     </div>
                 </div>
 
-                <div className='recent-btn'><button /></div>
+                <div className='recent-btn'><a>LEARN MORE -_- </a></div>
             </div>
         </>
     )

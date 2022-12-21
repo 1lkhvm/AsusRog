@@ -1,9 +1,10 @@
-
-.row{
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 70px;
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 70px;
+  background-color: red;
 }
+
 .carousel {
   width: 100%;
 }
@@ -29,8 +30,7 @@
   }
 }
 
-@media (min-width: 992px)
-{
+@media (min-width: 992px) {
   .slide-box img {
     -ms-flex: -1 0 25%;
     flex: -1 -1 25%;
@@ -44,17 +44,18 @@
   border-radius: .5rem;
 }
 
-.row-text{
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.row-text {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    b{
-        font-size: 30px;
-    }
+  b {
+    font-size: 30px;
+  }
 }
 
 .slide-box {
-    display: flex;
-    justify-content: space-around;}
+  display: flex;
+  justify-content: space-around;
+}

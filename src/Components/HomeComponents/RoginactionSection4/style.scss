@@ -1,5 +1,7 @@
 .Rog-in-action-text {
     margin-top: 100px;
+        color: rgb(255, 0, 0);
+
 
     h3 {
         text-align: center;
@@ -22,6 +24,10 @@
         .card-img {
             img {
                 width: 100%;
+                transition: 1s;
+            }
+            img:hover{
+                transform: scale(1.1);
             }
         }
 
@@ -66,13 +72,14 @@
 
             .card-img {
                 overflow: hidden;
+
                 img {
                     width: 100%;
-                    transition: 1s;
+                    transition: 2s;
 
-                    &:hover{
-                        scale:(1.1);
-                    }
+                    img:hover{
+                transform: scale(1.1);
+            }
                 }
             }
 
@@ -97,12 +104,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    button {
+    a{
         width: 100px;
         height: 50px;
-        background-color: transparent;
-        border: 5px solid rgb(0, 0, 0);
+       
+        color: rgb(255, 0, 0);
 
+        
     }
+}
+a:not([href]):not([tabindex]) {
+    color: red;
+    text-decoration: none;
 }

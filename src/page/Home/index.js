@@ -12,7 +12,6 @@ function Home() {
   return (
     <React.StrictMode>
     <NavbarComponents></NavbarComponents>
-    <FooterComponents></FooterComponents>
     <SliderSecton1></SliderSecton1>
     <ExploreSection2></ExploreSection2>
     <RecentSection3></RecentSection3>
